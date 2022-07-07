@@ -13,7 +13,6 @@ programa
 			accValorLido++
 			accSoma = accSoma + numDigitado
 			accMedia = accSoma / accValorLido
-
 			
 			escreva("Digite um número: ")
 			leia(numDigitado)
@@ -31,7 +30,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 349; 
+ * @POSICAO-CURSOR = 386; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

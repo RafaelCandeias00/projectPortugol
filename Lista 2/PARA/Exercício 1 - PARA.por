@@ -10,7 +10,7 @@ programa
 		// c) maior salário;
 		// d) percentual de pessoas com salário até R$100,00
 		
-		inteiro qtdePessoa = 3
+		inteiro qtdePessoa = 20
 		real salario, acumuladorSalario = 0.0, maiorSalario = 0.0, percentual = 0.0
 		inteiro numFilho, percentualAteCem = 0, acumuladorFilho = 0
 		
@@ -37,7 +37,7 @@ programa
 		real resultSalario = acumuladorSalario / qtdePessoa
 		real resultFilho = acumuladorFilho / qtdePessoa
 		
-		escreva("\nMédia de salário da população: ", resultSalario, "\n")
+		escreva("\nMédia de salário da população: R$", resultSalario, "\n")
 		escreva("Média do número de filho: R$", resultFilho, "\n")
 		escreva("Maior salário: R$", maiorSalario, "\n")
 		escreva("Pessoas com salário até R$100.00: ", percentual, "\n")
@@ -48,7 +48,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 714; 
+ * @POSICAO-CURSOR = 770; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
