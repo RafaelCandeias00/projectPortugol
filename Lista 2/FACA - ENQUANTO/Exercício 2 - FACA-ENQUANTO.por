@@ -3,15 +3,18 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro numDigitado
+		inteiro numDigitado, acc = 0
 		
 		escreva("Digite um valor: ")
 		leia(numDigitado)
 
 		faca{
 			escreva(numDigitado, "\n")
+			acc = acc + numDigitado
 			numDigitado--
+			
 		}enquanto(numDigitado >= 1)
+		escreva("Total: ", acc, "\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -19,7 +22,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 122; 
+ * @POSICAO-CURSOR = 200; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
